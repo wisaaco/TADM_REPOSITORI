@@ -180,7 +180,7 @@ print(body_mass_kg)
 
 penguins4=penguins2.assign(body_mass_kg=penguins2['body_mass_g']/1000)
 penguins4
-
+print(penguins4) # Recuerda que se ejecutará fuera del entorno de jupyter. Se ha de hacer "print"s
 
 # Vamos a crear un nuevo dataframe, en el que vamos a eliminar la columna 'body_mass_g' para finalizar el ejercicio. 
 
